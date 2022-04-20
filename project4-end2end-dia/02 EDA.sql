@@ -32,12 +32,30 @@
 
 -- COMMAND ----------
 
+# %python
+# rawPath = "/mnt/dscc202-datasets/ethereumetl/"
+# display(dbutils.fs.ls(rawPath))
+# eth_df = (
+#     spark.readStream.format("text").schema(kafka_schema).load(rawPath)
+# )
+
+-- COMMAND ----------
+
+Use ethereumetl;
+show tables;
+
+-- COMMAND ----------
+
+
+
+-- COMMAND ----------
+
 -- MAGIC %md
 -- MAGIC ## Q: What is the maximum block number and date of block in the database
 
 -- COMMAND ----------
 
--- TBD
+
 
 -- COMMAND ----------
 
