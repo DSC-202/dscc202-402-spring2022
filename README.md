@@ -9,6 +9,9 @@ Fork the dsc402 repositiory into your new account.  Note: this will create a cop
 own account.<br>
 Goto https://github.com/lpalum/dscc202-402-spring2022 and hit the fork button while you are logged into your github account: ![fork image](https://github-images.s3.amazonaws.com/help/bootcamp/Bootcamp-Fork.png)
 
+![image](https://user-images.githubusercontent.com/14876698/167227768-8e62b8ce-6a26-4e00-9f18-f852d8b4ba7e.png)
+
+
 ## Clone your copy of the dsc402 repository to get the class materials on your machine
 <code>git clone https://github.com/[your account name]/dscc202-402-spring2022.git</code><br>
 note: you may want to clone this repo into a dirtory on your machine that you organize for code e.g. **/home/<your username>/code/github**
