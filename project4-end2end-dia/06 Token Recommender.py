@@ -69,7 +69,7 @@ def recommend(wallet_address: str)->DataFrame:
     # generate a dataframe of songs that the user has previously listened to
     from pyspark.sql import functions as F
 
-    not_cold_start_df = spark.sql("select * from g08_db.notcoldstart")
+    not_cold_start_df = spark.sql("select * from g08_db.silver_table")
     metadata_df = spark.sql("select name, symbol, image, contract_address  from ethereumetl.token_prices_usd")
     wallet_df = not_cold_start_df.filter(not_cold_start_df.wallet_address == wallet_address)
 #     display(wallet_df)
