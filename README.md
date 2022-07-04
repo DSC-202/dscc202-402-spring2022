@@ -1,4 +1,4 @@
-# G08 🍆🍆
+# G08
 Team:
 - Nina Long 🐐
 - Miles Zhou 🦁
